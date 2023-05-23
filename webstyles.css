@@ -1,0 +1,484 @@
+/*Home Page - home.html Styles*/
+
+/*Header Style*/
+header {
+    background-color: #1e81b0;
+}
+h1 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+h1 a:link {
+    color: black;
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: black;
+    text-decoration: none;
+}
+#additionalTitle {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/*Navigation Bar Styles*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #1e81b0;
+}
+.navbar a:link {
+    float: left;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:visited {
+    float: left;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#dropdown {
+    float: left;
+    overflow: hidden;
+}
+#dropdown #dropbtn {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1e81b0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+#dropdown-content a:hover {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: underline;
+    display: block;
+    text-align: left;
+}
+#dropdown:hover #dropdown-content {
+    display: block;
+}
+
+/*Website Image Styles*/
+#websiteImage {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-top: 10px;
+}
+#websiteImage img {
+    width: 50%;
+    height: 180px;
+}
+#websiteImage h2 {
+    font-family: Georgia;
+    font-size: 24px;
+}
+
+/*Website Slogan Styles*/
+#website-slogan-title {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 24px;
+}
+#website-slogan-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#website-slogan-description {
+    font-family: Georgia;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#website-slogan-video iframe {
+    width: 350px;
+    height: 180px;
+}
+
+/*Main Page Content Title Style*/
+#homePageContentTitle {
+    font-family: Georgia;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+/*Main Page Navigation Bar */
+.mainNavBar {
+    overflow: hidden;
+    background-color: lightblue;
+}
+.mainNavBar a {
+    float: left;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.mainNavBar a:hover {
+    text-decoration: underline;
+}
+
+/*Section Title Styles*/
+.section-title {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 24px;
+}
+
+
+/*Section Content Styles*/
+.shantiniketan-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-description {
+    font-family: Georgia;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/*Section Images Styles*/
+.shantiniketan-images img {
+    width: 235px;
+    height: 195px;
+    padding-right: 16px;
+}
+#darjeeling-images01 img {
+    width: 50%;
+    height: 180px;
+}
+#darjeeling-images01 {
+    text-align: center;
+}
+#darjeeling-image02 img {
+    height: 140px;
+    width: 350px;
+    padding: 10px;
+}
+#darjeeling-image02 {
+    text-align: center;
+}
+
+/*Return to Top and Home Section Styles*/
+#return {
+    font-family: Georgia;
+    font-size: 20px;
+    text-align: center;
+}
+#return a:link {
+    color: black;
+    text-decoration: none;
+}
+#return a:visited {
+    color: black;
+}
+#return a:hover {
+    text-decoration: underline;
+}
+
+/*About Kolkata Page - one.html Styles*/
+
+/*Page Title Style*/
+#aboutKolkata h2 {
+    font-size: 24px;
+    font-family: Georgia;
+    padding: 16px;
+    text-align: center;
+}
+
+/*About Kolkata Description Styles*/
+#aboutKolkata p {
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/*About Kolkata Titltes*/
+.aboutKolkataInfo h3 {
+    font-size: 24px;
+    font-family: Georgia;
+}
+.aboutKolkataInfo h4 {
+    font-size: 22px;
+    font-family: Georgia;
+}
+
+/*About Kolkata Content Styles*/
+.aboutKolkataInfo p {
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+/*About Kolkata Images Styles*/
+#location-images img {
+    height: 300px;
+    width: 300px;
+}
+#location-images {
+    text-align: center;
+}
+.commute-options-images img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+.commute-options-images {
+    text-align: center;
+}
+#hisory-images {
+    text-align: center;
+}
+#hisory-images img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+/*Tourist Attractions Page - two.html Styles*/
+
+/*Tourist Attractions Title Styles*/
+#tourist-attractions-title {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 24px;
+}
+
+/*Tourist Attractions Description Styles*/
+#tourist-attractions-section p {
+    font-family: Georgia;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/*Tourist Attractions Images Styles*/
+.tourist-attractions-images img {
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+}
+.tourist-attractions-images {
+    text-align: center;
+}
+
+/*Tourist Activities Page - three.html Styles*/
+
+/*Tourist Activities Section Titles Styles*/
+#tourist-activities-title {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 24px;
+}
+#special-foods-title {
+    font-size: 24px;
+    text-align: center;
+    font-family: Georgia    ;
+}
+#sweets-title {
+    font-size: 24px;
+    font-family: Georgia;
+    padding-left: 16px;
+}
+#kolkata-biryani-title {
+    font-size: 24px;
+    font-family: Georgia;
+    padding-left: 16px;
+}
+#tourist-activities-section h2 {
+    font-family: Georgia;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*Tourist Activities Paragraphs*/
+#tourist-activities-section p {
+    font-family: Georgia;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#tourist-activities-images p{
+    text-align: left;
+}
+#special-foods-section p {
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 16px;
+}
+.special-foods-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.special-foods-description {
+    font-family: Georgia;
+    font-size: 20px;
+}
+.special-foods-description h2 {
+    font-family: Georgia;
+    font-size: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/*Tourist Activities Images*/
+#tourist-activities-images {
+    text-align: center;
+}   
+#tourist-activities-images img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.special-foods-images img {
+    width: 300px;
+    height: 300px;
+    padding-right: 16px;
+}
+
+/*Main Social Events Page - four.html Styles*/
+
+/*Main Social Events Title Styles*/
+.main-social-events-title {
+    font-size: 24px;
+    font-family: Georgia;
+    text-align: center;
+}
+
+/*Main Social Events Descriptions Styles*/
+.main-social-events-description p {
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/*Main Social Events Images Styles*/
+.main-social-events-images img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.main-social-events-images {
+    text-align: center;
+}
+
+/*Error 404 Page - five.html*/
+
+/*Error 404 Image Styles*/
+#error404Image {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-top: 10px;
+}
+#error404Image img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Home Button Styles*/
+#homeButton {font-size: 20px;
+        font-family: Georgia;
+        text-align: center;
+
+}
+#homeButton a:link {color: black;
+        text-decoration: none;
+
+}
+#homeButton a:visited{
+    color: black;
+    text-decoration: none;
+}
+#homeButton a:hover {
+    text-decoration: underline;
+}
+
+/*More Link Section Styles*/
+#moreLink p {
+    font-size: 20px;
+    font-family: Georgia;
+    text-align: right;
+    padding-right: 16px;
+}
+
+#moreLink a:link {
+    color: black;
+    text-decoration: none;
+}
+#moreLink a:visited {
+    color: maroon;
+    text-decoration: none;
+}
+
+#moreLink a:hover {
+    text-decoration: underline;
+}
+
+/*Footer Styles*/
+footer {
+    background-color: #1e81b0;
+}
+
+/*Footer Content Styles*/
+footer p, h5,ol, ul
+{
+    padding-left: 16px;
+    font-family: Georgia;
+
+}
+
+/*Footer Links Styles*/
+footer a:link {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer a:visited {
+    color: maroon;
+}
